@@ -7,13 +7,13 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="musicBean"
-          class="ru.alishev.springcourse.ClassicalMusic">
+    <bean id="musicBeanT"
+          class="ua.skalskyi.springcourset.ClassicalMusicT">
     </bean>
 
-    <bean id="musicPlayer"
-          class="ru.alishev.springcourse.MusicPlayer">
-        <constructor-arg ref="musicBean"/>
+    <bean id="musicPlayerBeanT"
+          class="ua.skalskyi.springcourset.MusicPlayerT">
+        <constructor-arg ref="musicBeanT"/>
     </bean>
 
 </beans>
